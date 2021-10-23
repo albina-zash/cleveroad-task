@@ -1,0 +1,61 @@
+#wrapper{	
+	margin: 10px;
+}
+.header{
+    border: 2px solid teal;
+    width: auto;
+}
+.location{
+	position: relative;
+	width: 64.5%;
+	height: 70px;
+	padding: 10px;
+	font-size: 16px;
+}
+.time{
+	position: absolute;
+	left: 66%;
+	top: 8px;
+	width: 30.7%;
+	height: 70px;
+	padding: 10px;	
+	font-size: 16px;
+}
+#map{
+	position: relative;
+	margin-top: 10px;
+	height: 487px;
+	width: 65%;
+}
+#people{
+	position: absolute;
+    height: 500px;
+    overflow: auto;
+	left: 66%;
+	top: 100px;
+	width: 31.36%;	
+	border: 2px solid teal;
+    padding: 5px 5px;
+}
+
+#count-people{	
+	text-align: center;
+    border: 2px solid teal;
+	padding: 5px;
+	font-size: 16px;
+}
+.people-block{
+	width: 95%;
+	margin: 10px;
+	border: 2px solid rgb(13, 150, 150);
+	border-radius: 10px;
+	padding: 5px;
+	font-size: 20px;
+    text-align: center;
+}
+.header :first-child{
+ 	font-weight: bold;
+}
+.header :last-child{
+	font-style: italic;
+}
